@@ -1,0 +1,16 @@
+body{
+  background-image: url("/back.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+#loader{
+  background-color: rgba(255, 255, 255, 0.61);
+  position: absolute;
+  height: 110vh;
+  width: 100%;
+  bottom: 1000px;
+  z-index: 100;
+  transition: all .4s ease-out;
+}
